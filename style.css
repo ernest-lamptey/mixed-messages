@@ -1,0 +1,70 @@
+
+body,h1 {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-bg {
+    background-image: url(../img/beautiful-view-greenery-bridge-forest-perfect-background.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+ 
+}
+
+.card {
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blanchedalmond;
+    min-width: 400px;
+    max-width: 50vw;
+    height: 270px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.quote {
+    padding: 30px 40px 30px 40px;
+    height: 60px;
+    text-align: center;
+}
+
+#button:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+#button {
+    position: static;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 15px;
+    display: block;
+    margin: -20px auto;
+    border: 0px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    margin-top: -30px;
+    background-color: white;
+    box-shadow: 0 8px 8px -4px grey;
+}
